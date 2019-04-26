@@ -7,6 +7,10 @@ verify_ssl = true
 
 [packages]
 dvc = "*"
+pandas = "*"
+sklearn = "*"
+scikit-learn = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.6"
