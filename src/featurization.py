@@ -51,7 +51,7 @@ def get_df(data):
         names=['id', 'label', 'text']
     )
     sys.stderr.write('The input data frame {} size is {}\n'.format(data, df.shape))
-    return df
+    return df.head()
 
 
 def save_matrix(df, matrix, output):
@@ -91,4 +91,3 @@ test_words_binary_matrix = bag_of_words.transform(test_words)
 test_words_tfidf_matrix = tfidf.transform(test_words_binary_matrix)
 
 save_matrix(df_test, test_words_tfidf_matrix, test_output)
-
