@@ -2,12 +2,12 @@ cmd: python src/train.py data/features model.pkl
 deps:
 - md5: d05e0201a3fb47c878defea65bd85e4d
   path: src/train.py
-- md5: 9ffca962df94c43807668ba02a8bdbaa.dir
+- md5: 3756f73f575ce61b83fc1312fec0e570.dir
   path: data/features
-md5: 5abe1aa1a4d5ca1eed3defb6a1e0e0aa
+md5: b304847e5787617fff1b19935e6c0f79
 outs:
 - cache: true
-  md5: 0c10587e76101cf9ed24b7382dc8c3b4
+  md5: 12c7618b9b4cc2651aa62fddd65e6413
   metric: false
   path: model.pkl
   persist: false
