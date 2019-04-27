@@ -11,6 +11,8 @@ pandas = "*"
 sklearn = "*"
 scikit-learn = "*"
 scipy = "*"
+requests = "*"
+kaggle = "*"
 
 [requires]
 python_version = "3.6"
