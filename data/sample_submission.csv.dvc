@@ -1,0 +1,8 @@
+md5: f8964c11591701257f1c2c93df3ef92e
+outs:
+- cache: true
+  md5: 41c211720c7bcc4fcf21457ca237ac24
+  metric: false
+  path: data/sample_submission.csv
+  persist: false
+wdir: ..
