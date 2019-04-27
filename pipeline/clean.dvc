@@ -1,0 +1,14 @@
+cmd: python scripts/clean.py
+deps:
+- md5: e39b6182364663e359a9c380534d23c0
+  path: data/train.csv
+- md5: 1932bb6a580460cfae0e0da0369f288e
+  path: scripts/clean.py
+md5: 1e47c3388776bd8e8382688e2d419c85
+outs:
+- cache: true
+  md5: c1a9a0f62efc3129487faf25fb4f70cf
+  metric: false
+  path: data/cleaned_train.csv
+  persist: false
+wdir: ..
