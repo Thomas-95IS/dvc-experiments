@@ -1,0 +1,3 @@
+cmd: kaggle competitions download -c digit-recognizer -p ./data/
+md5: 87bbf94496788dd3b5f343e4b09a6084
+wdir: ..
