@@ -1,0 +1,8 @@
+cmd: python scripts/train.py
+deps:
+- md5: c1a9a0f62efc3129487faf25fb4f70cf
+  path: data/cleaned_train.csv
+- md5: b2817970740ea11616e99ba6d3978c97
+  path: scripts/train.py
+md5: f5bb3d9b196e4af0751957c62945db39
+wdir: ..
