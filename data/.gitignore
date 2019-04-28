@@ -2,3 +2,4 @@
 /train.csv
 /test.csv
 /cleaned_train.csv
+/model.pkl

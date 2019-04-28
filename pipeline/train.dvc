@@ -2,7 +2,13 @@ cmd: python scripts/train.py
 deps:
 - md5: c1a9a0f62efc3129487faf25fb4f70cf
   path: data/cleaned_train.csv
-- md5: b2817970740ea11616e99ba6d3978c97
+- md5: d931a0aa9960700ca08a7401f923dc61
   path: scripts/train.py
-md5: f5bb3d9b196e4af0751957c62945db39
+md5: c0b1bed60d6383f1a52a191e568d4212
+outs:
+- cache: true
+  md5: 0804376e303e7c189b0c91e7bb0d7d7d
+  metric: false
+  path: data/model.pkl
+  persist: false
 wdir: ..
